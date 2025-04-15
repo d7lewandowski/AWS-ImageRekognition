@@ -2,6 +2,9 @@
 
 This project uses AWS Rekognition to automatically analyze images uploaded to an S3 bucket. It uses S3, Lambda, and IAM to create an event-driven image processing workflow.
 
+The output is a `.json` file. For example:
+Inside the `"body"` key, you will find the general prediction about what the image represents.
+eg.  "body": "This image likely contains: Dog, Animal, Pet"
 ---
 ![Diagram architecture](diagram_image_rekognition.jpg "AWS - Diagram architecture")
 
