@@ -3,8 +3,7 @@
 This project uses AWS Rekognition to automatically analyze images uploaded to an S3 bucket. It uses S3, Lambda, and IAM to create an event-driven image processing workflow.
 
 ---
-
-![Diagram architecture](/workspaces/AWS-ImageRekognition/diagram_image_rekognition.jpg)
+![Diagram architecture](/workspaces/AWS-ImageRekognition/diagram_image_rekognition.jpg "AWS - Diagram architecture")
 
 ## 1. IAM Role Configuration
 
